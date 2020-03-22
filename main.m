@@ -15,7 +15,7 @@ flag_download_table = true;
 % updating the table
 if flag_download_table
     disp('Updating data table...');
-    urlwrite('https://covid.ourworldindata.org/data/total_cases.csv','total_cases.csv');
+    urlwrite('https://covid.ourworldindata.org/data/ecdc/total_cases.csv','total_cases.csv');
 end
 
 % loading table
